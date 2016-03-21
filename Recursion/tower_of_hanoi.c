@@ -15,14 +15,10 @@ Date                : 19 March 2016
 //end is the final peg.
 void hanoi(uint32_t n_disks, uint32_t beg, uint32_t aux, uint32_t end)
 {
-  if(n_disks == 1)
-    printf("Move %c to %c\n", beg, end);
-  if(n_disks == 0)
-    return;
-  if(n_disks > 1)
+  if(n_disks > 0)
   {
     hanoi(n_disks - 1, beg, end, aux);
-    hanoi(1, beg, aux, end);
+    printf("Move %c to %c\n", beg, end);
     hanoi(n_disks - 1, aux, beg, end);
   }
 }
