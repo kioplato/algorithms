@@ -3,6 +3,7 @@ File implementation : my_string.c
 Authors             : Platon-Nikolaos Kiorpelidis
 Purpose             : my string management functions
 Date                : 21 Mar 2016
+Language:           : C++
 *******************************************************/
 
 #include <stdio.h>
