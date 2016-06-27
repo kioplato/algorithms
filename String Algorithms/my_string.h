@@ -3,6 +3,7 @@ File implementation : my_string.h
 Authors             : Platon-Nikolaos Kiorpelidis
 Purpose             : my string management functions
 Date                : 21 Mar 2016
+Language            : C
 *******************************************************/
 
 //replaces char_unwanted character from given string with char_replacer character.
